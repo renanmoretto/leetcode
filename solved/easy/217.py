@@ -26,4 +26,4 @@ if __name__ == "__main__":
     N = 1_000_000
 
     rango = list(range(N))
-    main(rango)
+    print(main(rango))
