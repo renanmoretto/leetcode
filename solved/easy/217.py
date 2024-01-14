@@ -23,7 +23,7 @@ def main(nums: List[int]) -> bool:
 
 
 if __name__ == "__main__":
-    N = 1_000_000
+    N = 100
 
     rango = list(range(N))
     print(main(rango))
