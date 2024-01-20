@@ -22,7 +22,7 @@ def main(nums: List[int]) -> bool:
     return False
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     N = 100
 
     rango = list(range(N))

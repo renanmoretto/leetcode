@@ -12,7 +12,7 @@ def main(strs: list[str]) -> list[list[str]]:
     anagrams_types = defaultdict()
     response_list = []
     for s in strs:
-        s_ana = "".join(sorted(s))
+        s_ana = ''.join(sorted(s))
         if s_ana in anagrams_types.keys():
             anagram_type = anagrams_types.get(s_ana)
             response_list[anagram_type].append(s)
@@ -22,7 +22,7 @@ def main(strs: list[str]) -> list[list[str]]:
     return response_list
 
 
-r = main(["eat", "tea", "tan", "ate", "nat", "bat"])
+r = main(['eat', 'tea', 'tan', 'ate', 'nat', 'bat'])
 print(r)
 
 

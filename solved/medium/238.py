@@ -95,7 +95,7 @@ def solution_with_division_o1space(nums: list[int]) -> list[int]:
     return nums
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     inp = [1, 2, 3, 4]
     inp = [-1, 1, 0, -3, 3]
     r = solution_with_division_o1space(inp)

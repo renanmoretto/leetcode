@@ -4,6 +4,6 @@ def main(s: str, t: str) -> bool:
     return False
 
 
-if __name__ == "__main__":
-    r = main("anagram", "nagaram")
+if __name__ == '__main__':
+    r = main('anagram', 'nagaram')
     print(r)
